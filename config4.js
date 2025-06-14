@@ -139,7 +139,7 @@ restartBtn.addEventListener('click', startGame);
 
 // Перехід на іншу сторінку
 otherPageBtn.addEventListener('click', () => {
-    window.location.href = 'index1.html';
+    window.location.href = 'index.html';
 });
 
 // Запуск гри при завантаженні
