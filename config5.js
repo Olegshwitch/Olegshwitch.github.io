@@ -290,13 +290,13 @@ startBtn.addEventListener('click', startGame);
 restartBtn.addEventListener('click', startGame);
 nextLevelBtn.addEventListener('click', nextLevel);
 instructionsBtn.addEventListener('click', () => {
-    window.location.href = 'index1.html';
+    window.location.href = 'index.html';
 });
 // Отримуємо кнопку повернення в меню
 const backToMenuBtn = document.getElementById('back-to-menu');
 
 backToMenuBtn.addEventListener('click', () => {
-    window.location.href = 'index1.html';
+    window.location.href = 'index.html';
 });
 // Ініціалізація при завантаженні
 initGame();
