@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арканоїд</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">Арканоїд</h1>
+        <div class="game-controls">
+            <button id="instructions-btn" class="control-btn">Інструкція</button>
+            <div id="lives" class="lives">Життя: 3</div>
+            <div id="score" class="score">Рахунок: 0</div>
+            <button id="start-btn" class="control-btn">Почати гру</button>
+        </div>
+        <canvas id="gameCanvas" class="game-board"></canvas>
+        <div id="game-over" class="game-over">
+            <h2>Гра закінчена!</h2>
+            <p id="final-score">Ваш рахунок: 0</p>
+            <button id="restart-btn" class="control-btn">Грати знову</button>
+        </div>
+        <div id="level-complete" class="level-complete">
+            <h2>Рівень пройдено!</h2>
+            <button id="next-level-btn" class="control-btn">Наступний рівень</button>
+        </div>
+    </div>
+    <button id="back-to-menu" class="back-to-menu-btn">Повернутися в меню</button>
+    <script src="config5.js"></script>
+</body>
+</html>
